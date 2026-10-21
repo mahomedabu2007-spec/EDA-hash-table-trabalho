@@ -1,0 +1,12 @@
+INSTRUCOES DE EXECUCAO (Java 8 ou superior)
+
+Dentro da pasta TabelaHash (onde esta o estudantes.csv):
+
+  Compilar:   javac -d out $(find . -name "*.java")        (Linux/Mac)
+              Windows: dir /s /b *.java > fontes.txt  &  javac -d out @fontes.txt
+
+  Interface grafica (Swing):  java -cp out gui.JanelaPrincipal
+  Versao de consola (menu):   java -cp out Main
+  Demonstracao para a defesa: java -cp out DemoDefesa
+
+Nota: execute a partir da pasta TabelaHash para o programa encontrar o estudantes.csv.
