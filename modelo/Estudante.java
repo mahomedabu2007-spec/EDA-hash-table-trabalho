@@ -30,7 +30,12 @@ public class Estudante {
 
     @Override
     public String toString() {
-        return codigo + " | " + nome + " | " + curso + " | " + ano + "º ano | "
-             + idade + " anos | " + sexo + " | média " + media;
+        return "Codigo : " + codigo + "\n"
+             + "Nome   : " + nome + "\n"
+             + "Curso  : " + curso + "\n"
+             + "Ano    : " + ano + "\n"
+             + "Idade  : " + idade + "\n"
+             + "Sexo   : " + sexo + "\n"
+             + "Media  : " + media;
     }
 }
